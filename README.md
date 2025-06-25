@@ -37,16 +37,18 @@
 1️**Clone the repository**  
 git clone https://github.com/ShubhamYadav27/BookStore.git
 cd BookStore
+
 2️**Install dependencies for frontend & backend**
 cd frontend && npm install
 cd ../backend && npm install
+
 3️**Set up environment variables**
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
+
 4️**Run the development server**
 # Start backend
 cd backend && npm start
-
 # Start frontend
 cd frontend && npm start
